@@ -21,57 +21,59 @@
 		<li><a href="educacion.html">Educación</a></li>
 		<li><a href="experiencia.html">Experiencia</a></li>
 	</ul>
-	<h2>Educación</h2>
-	<table border="1">
-		<tr>
-			<th>Año</th>
-			<th>Institución</th>
-			<th>Culmino?</th>
-		</tr>
-		<tr align="center">
-			<td>2007</td>
-			<td>ESFA</td>
-			<td>SI</td>
-		</tr>
-		<tr align="center">
-			<td>2015</td>
-			<td>iTec Rio Cuarto</td>
-			<td>NO</td>
-		</tr>
-		<tr align="center">
-			<td>2017</td>
-			<td>Next U</td>
-			<td>NO</td>
-		</tr>
-	</table>
-	<form>
-		<h3>Agregar Estudios</h3>
-		<p>
-			<label>Año: </label>
-			<br>
-			<select name="Año">
-				<option value="1">2015</option>
-				<option value="1">2016</option>
-				<option value="1">2017</option>
-			</select>
-		</p>
-		<p>
-			<label for="institucion">Institucion: </label>
-			<input type="text" name="institucion" placeholder="Ej: Next U" autofocus required>
-		</p>
-		<p>
-			<label for="lugar">Lugar: </label>
-			<br>
-			<textarea name="lugar" id="" cols="30" rows="3" placeholder="Ej: Córdoba"></textarea>
-		</p>
-		<p>
-			<label for="genre">Culminó? </label>
-			<input type="radio" name="opcion"> Si
-			<input type="radio" name="opcion"> No
-		</p>
+	<div>
+		<h2>Educación</h2>
+		<table border="1">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Culmino?</th>
+			</tr>
+			<tr align="center">
+				<td>2007</td>
+				<td>ESFA</td>
+				<td>SI</td>
+			</tr>
+			<tr align="center">
+				<td>2015</td>
+				<td>iTec Rio Cuarto</td>
+				<td>NO</td>
+			</tr>
+			<tr align="center">
+				<td>2017</td>
+				<td>Next U</td>
+				<td>NO</td>
+			</tr>
+		</table>
+		<form>
+			<h3>Agregar Estudios</h3>
+			<p>
+				<label>Año: </label>
+				<br>
+				<select name="Año">
+					<option value="1">2015</option>
+					<option value="1">2016</option>
+					<option value="1">2017</option>
+				</select>
+			</p>
+			<p>
+				<label for="institucion">Institucion: </label>
+				<input type="text" name="institucion" placeholder="Ej: Next U" autofocus required>
+			</p>
+			<p>
+				<label for="lugar">Lugar: </label>
+				<br>
+				<textarea name="lugar" id="" cols="30" rows="3" placeholder="Ej: Córdoba"></textarea>
+			</p>
+			<p>
+				<label for="genre">Culminó? </label>
+				<input type="radio" name="opcion"> Si
+				<input type="radio" name="opcion"> No
+			</p>
 
-		<button type="button" onclick="alert('Agregado Exitosamente!')">Enviar</button>
-	</form>
+			<button type="button" onclick="alert('Agregado Exitosamente!')">Enviar</button>
+		</form>
+	</div>
 </body>
 <footer>
 	<p>Tel: +5493584374819<br>Mail: santos1983@gmail.com<br>Direccion: Sadi Carnot 1371 - Rio Cuarto, Cordoba - Argentina</p>
