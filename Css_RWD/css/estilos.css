@@ -8,7 +8,7 @@ body{
 #lista li {
   display: inline;
   padding: 10px;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 a:visited{
   color: inherit;
@@ -17,7 +17,7 @@ a:active{
   text-decoration: none;
 }
 /*-----MOVIL-----*/
-@media (max-width:900px){
+@media (max-width:899px){
   .contenido{
     width: 100%;
     font-family: Dancing Script;
@@ -26,6 +26,14 @@ a:active{
   }
   header{
     text-align: center;
+    font-size: 3vw;
+  }
+  #lista li {
+    font-size: 1.2em;
+    padding: 25px;
+  }
+  #secundaria{
+    flex-direction: column;
   }
 }
 /*-----DESKTOP-----*/
@@ -41,9 +49,13 @@ a:active{
     margin-top: auto;
     margin-bottom: auto;
     margin: 15px;
+    font-size: 3vw;
   }
   ul{
     float: right;
+  }
+  #secundaria{
+    flex-direction: row;
   }
 }
 header{
@@ -56,4 +68,29 @@ header{
 .central{
   background-color: #82c3a6;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.central img{
+  vertical-align: middle;
+  height: 80%;
+}
+#secundaria{
+  display: flex;
+  background-color: #d5c75f;
+  border: 1px;
+}
+#secundaria>div{
+  width: 50%
+}
+
+.imgIzq{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.imgDer{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
